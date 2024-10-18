@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --neon-blue: #00ffff;
+    --neon-pink: #ff00ff;
+}
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000;
+    color: var(--neon-blue);
+}
+
+#game-container {
+    box-shadow: 0 0 20px var(--neon-blue);
+}
+
+#gameCanvas {
+    background-color: #000;
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 15px var(--neon-pink);
+}
+
+.text-neon-blue {
+    color: var(--neon-blue);
+}
+
+.bg-neon-blue {
+    background-color: var(--neon-blue);
+}
+
+.hover\:bg-neon-pink:hover {
+    background-color: var(--neon-pink);
+}
